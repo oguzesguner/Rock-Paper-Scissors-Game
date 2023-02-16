@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 1080px;
-    height:100vh;
+    min-height:100vh;
     justify-content:space-between;
     text-align: center;
     margin: 0;

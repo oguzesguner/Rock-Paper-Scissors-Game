@@ -3,17 +3,14 @@
    }
 html{
     margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-         
+    padding: 0;  
+    min-height:100vh;
 }
 body{
     display: flex;
     flex-direction: column;
-    min-width: 1080px;
-    min-height:100%;
+    min-width: 750px;
+    min-height: 100vh;
     justify-content:space-between;
     text-align: center;
     margin: 0;

@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 1080px;
+    height:100vh;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+}
+h1{margin: 0px; padding: 0px;}

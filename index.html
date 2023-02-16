@@ -21,25 +21,31 @@
     </div>
     <div class="contentContainer">
         <div class="select">
-            <div class="rock"><img src="/Rock-Paper-Scissors-Game/images/rocks.png"></div>
-            <div class="paper"><img src="/Rock-Paper-Scissors-Game/images/paper.png"></div>
-            <div class="scissors"><img src="/Rock-Paper-Scissors-Game/images/scissors.png"></div>
+            <div><button id="rockb"><img src="/Rock-Paper-Scissors-Game/images/rocks.png"></button></div>
+            <div><button id="paperb"><img src="/Rock-Paper-Scissors-Game/images/paper.png"></button></div>
+            <div><button id="scissorb"><img src="/Rock-Paper-Scissors-Game/images/scissors.png"></button></div>
         </div>
-        <div class="score">0-0</div>
+        <div id="score" class="score">Computer = 0 - 0 = Player</div>
+        <div><input type="button" value="Reset the Game!" id="resetButton"></div>
         <div class="gameHistory">
-            <div class="cardtitle">Computer's Moves
-            <div class="computer card"></div>
+            <div class="cardtitle">Computer's Move
+            <div id="computer" class="card"></div>
             </div>
             <div class="cardtitle">Game History
-                <div class="game card"></div>
+                <div id="game" class="card"></div>
                 </div>
             
-            <div class="cardtitle">Player's moves
-                <div class="card"></div>
+            <div class="cardtitle">Player's Move
+                <div id="player" class="card"></div>
             </div>
             
         </div>
-        <div class="gameText">Welcome! </div>
+        <div class="gameTextContainer">
+        <div id="roundCount">Round 0</div>
+        <div class="gameText" id="message">Welcome! </div>        
+        
+        
+    </div>
     </div>
     <div class="footer">
         <div>Thank you for playing! Hope you come back again!</div>
